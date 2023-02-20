@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 위 3개의 메타 태그는 *반드시* head 태그의 처음에 와야합니다; 어떤 다른 콘텐츠들은 반드시 이 태그들 *다음에* 와야 합니다 -->
+<title>상품주문서작성페이지</title>
+
+<link href="css/NewFile.css" rel="stylesheet" type="text/css">
+<!-- 부트스트랩 -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<!-- IE8 에서 HTML5 요소와 미디어 쿼리를 위한 HTML5 shim 와 Respond.js -->
+<!-- WARNING: Respond.js 는 당신이 file:// 을 통해 페이지를 볼 때는 동작하지 않습니다. -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div id="leftbar">
+  <div class=""><a href="#">쇼핑몰</a></div>
+</div>  
+
+<div id="contents">
+		<div id="header">
+			<h3 class="text-left">상품주문서작성</h3>
+			<p>
+			<hr>
+		</div>
+		<div class="main">
+			<div class="sub_all">
+				<div class="sub_ta">
+					<form id="" name="" action="" method="post" target="_self" enctype="multipart/form-data">
+						<div style="border: 1px solid #e8e8e8; margin-top: -0px;"
+							class="typeMember ">
+							<div class="information">
+								<h3 class="title">혜택정보</h3>
+								<div class="description">
+									<ul class="mileage">
+										<li><a href="#">가용적립금
+												: <strong>2,000원</strong>
+										</a></li>
+										<li class="displaynone"><a
+											href="#">예치금 : <strong></strong></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<ul class="controlInfo" style="background-color: #fff;">
+							<li class="txtWarn txt11">상품의 옵션 및 수량 변경은 상품상세 또는 장바구니에서
+								가능합니다.</li>
+							<li class="txtWarn txt11 displaynone">할인 적용 금액은 주문서작성의
+								결제예정금액에서 확인 가능합니다.</li>
+						</ul>
+						<div class="orderListArea ">
+							<div class="title" style="background-color: #fff;">
+								<h3>국내배송상품 주문내역</h3>
+								<p class="button">
+									<a href="#" class="btnNormal">이전페이지</a>
+								</p>
+							</div>
+
+
+							<div class="typeList gBorder displaynone">
+								<table border="1" summary="">
+									<caption>기본배송</caption>
+									<colgroup>
+										<col style="width: 27px" class="">
+										<col style="width: 92px">
+										<col style="width: auto">
+										<col style="width: 98px">
+										<col style="width: 75px">
+										<col style="width: 98px">
+										<col style="width: 98px">
+										<col style="width: 85px">
+										<col style="width: 98px">
+									</colgroup>
+									<thead>
+										<tr>
+											<th scope="col" class=""><input type="checkbox"
+												onclick="" disabled=""></th>
+											<th scope="col">이미지</th>
+											<th scope="col">상품정보</th>
+											<th scope="col">판매가</th>
+											<th scope="col">수량</th>
+											<th scope="col">적립금</th>
+											<th scope="col">배송구분</th>
+											<th scope="col">배송비</th>
+											<th scope="col">합계</th>
+										</tr>
+									</thead>
+									<tfoot class="right">
+										<tr>
+											<td class=""></td>
+											<td colspan="8"><span class="gLeft">[기본배송]</span> 상품구매금액
+												<strong><span class="displaynone"> ()</span></strong><span
+												class="displaynone"> + 부가세 </span> + 배송비 <span id=""></span>
+												<span id="" class="displaynone"> - 상품할인금액 <span id=""></span>
+											</span> = 합계 : <strong class="txtEm gIndent10"><span id=""
+													class="txt18"></span>원</strong> <span class="displaynone"></span></td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+
+							<div class="typeList gBorder displaynone">
+								<table border="1" summary="">
+									<caption>업체기본배송</caption>
+									<colgroup>
+										<col style="width: 27px" class="">
+										<col style="width: 92px">
+										<col style="width: auto">
+										<col style="width: 98px">
+										<col style="width: 75px">
+										<col style="width: 98px">
+										<col style="width: 98px">
+										<col style="width: 85px">
+										<col style="width: 98px">
+									</colgroup>
+									<thead>
+										<tr>
+											<th scope="col" class=""><input type="checkbox"
+												onclick="" disabled=""></th>
+											<th scope="col">이미지</th>
+											<th scope="col">상품정보</th>
+											<th scope="col">판매가</th>
+											<th scope="col">수량</th>
+											<th scope="col">적립금</th>
+											<th scope="col">배송구분</th>
+											<th scope="col">배송비</th>
+											<th scope="col">합계</th>
+										</tr>
+									</thead>
+									<tfoot class="right">
+										<tr>
+											<td class=""></td>
+											<td colspan="8"><span class="gLeft">[업체기본배송]</span>
+												상품구매금액 <strong><span class="displaynone"> ()</span></strong><span
+												class="displaynone"> + 부가세 </span> + 배송비 <span id=""></span>
+												<span id="" class="displaynone"> - 상품할인금액 <span id=""></span>
+											</span> = 합계 : <strong class="txtEm gIndent10"><span id=""
+													class="txt18"></span></strong> <span class="displaynone"></span></td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+
+							<div class="typeList gBorder ">
+								<table border="1" summary="">
+									<caption>개별배송</caption>
+									<colgroup>
+										<col style="width: 27px" class="">
+										<col style="width: 92px">
+										<col style="width: auto">
+										<col style="width: 98px">
+										<col style="width: 75px">
+										<col style="width: 98px">
+										<col style="width: 98px">
+										<col style="width: 85px">
+										<col style="width: 98px">
+									</colgroup>
+									<thead>
+										<tr>
+											<th scope="col" class=""><input type="checkbox"
+												onclick=""></th>
+											<th scope="col">이미지</th>
+											<th scope="col">상품정보</th>
+											<th scope="col">판매가</th>
+											<th scope="col">수량</th>
+											<th scope="col">적립금</th>
+											<th scope="col">배송구분</th>
+											<th scope="col">배송비</th>
+											<th scope="col">합계</th>
+										</tr>
+									</thead>
+									<tfoot class="right">
+										<tr>
+											<td class=""></td>
+											<td colspan="8"><span class="gLeft">[개별배송]</span> 상품구매금액
+												<strong>97,000<span class="displaynone"> (0)</span></strong><span
+												class="displaynone"> + 부가세 0</span> + 배송비 <span
+												id="">0 (무료)</span> <span
+												id="" class="displaynone">
+													- 상품할인금액 <span id="">0</span>
+											</span> = 합계 : <strong class="txtEm gIndent10"><span
+													id="" class="txt18">97,000</span>원</strong> <span
+												class="displaynone"></span></td>
+										</tr>
+									</tfoot>
+									<tbody
+										class="center">
+										<tr class="record">
+											<td class=""><input id=""
+												name=""
+												value="707:000D:F:123761" type="checkbox"></td>
+											<td class="thumb gClearLine"><a
+												href="#"><img src="#" onerror="" alt=""></a></td>
+											<td class="left gClearLine"><strong class="name"><a href="#"
+													class="ec-product-name">???</a></strong>
+												<div class="option "></div>
+												<p class="gBlank5 displaynone">무이자할부 상품</p>
+												<p class="gBlank5 displaynone">유효기간 :</p></td>
+											<td class="right">
+												<div id="" class="">
+													<strong>0원</strong>
+													<p class="displaynone"></p>
+												</div>
+												<div id="" class="displaynone">
+													<strong><span id="">0</span>원</strong>
+													<p class="displaynone"></p>
+												</div>
+											</td>
+											<td>1</td>
+											<td><span id="" class="txtInfo"><input
+													id=""
+													name="" value="0" type="hidden"><img
+													src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_point.gif">
+													0원</span></td>
+											<td><div class="txtInfo">
+													개별배송<br>
+												</div></td>
+											<td rowspan="1" class="">[무료]</td>
+											<td class="right"><strong><span
+													id="">0</span>원</strong>
+											<div class="displaynone"></div></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<ul class="controlInfo typeBtm"
+							style="background-color: #fff;">
+							<li class="txtWarn txt11">상품의 옵션 및 수량 변경은 상품상세 또는 장바구니에서
+								가능합니다.</li>
+							<li class="txtWarn txt11 displaynone">할인 적용 금액은 주문서작성의
+								결제예정금액에서 확인 가능합니다.</li>
+						</ul>
+						<div class="button">
+							<span class="gLeft "> <strong class="text">선택상품을</strong>
+								<a href="#" id="" class="btnEm"><i
+									class="icoDelete"></i> 삭제하기</a>
+							</span> <span class="gRight"> <a
+								href="#" class="btnNormal">이전페이지</a>
+							</span>
+						</div>
+						<div class="orderArea">
+							<div class="title">
+								<h3>배송 정보</h3>
+								<p class="required">
+									<img
+										src="//img.echosting.cafe24.com/skin/base_ko_KR/order/ico_required.gif"
+										alt="필수"> 필수입력사항
+								</p>
+							</div>
+							<div class="typeWrite">
+								<table border="1" summary="">
+									<caption>배송 정보 입력</caption>
+									<colgroup>
+										<col style="width: 139px;">
+										<col style="width: auto;">
+									</colgroup>
+									<!-- 국내 배송지 정보 -->
+									<tbody class="">
+										<tr class="">
+											<th scope="row">배송지 선택</th>
+											<td>
+												<div class="address">
+													<input id="" name="sameaddr" fw-filter=""
+														fw-label="1" fw-msg="" value="M" type="radio"
+														autocomplete="off"><label for="">회원
+														정보와 동일</label> <input id="" name="sameaddr" fw-filter=""
+														fw-label="1" fw-msg="" value="F" type="radio"
+														autocomplete="off"><label for="sameaddr1">새로운
+														배송지</label> <span
+														class="RecentDelivery displaynone">
+														최근 배송지 : </span> <a href="#" id=""
+														class="btnNormal ">주소록 보기</a>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<th scope="row">받으시는 분 <img
+												src="//img.echosting.cafe24.com/skin/base_ko_KR/order/ico_required.gif"
+												alt="필수"></th>
+											<td><input id="" name="rname" fw-filter="isFill"
+												fw-label="수취자 성명" fw-msg="" class="inputTypeText"
+												placeholder="" size="15" value="" type="text"></td>
+										</tr>
+										<tr>
+											<th scope="row">주소 <img
+												src="//img.echosting.cafe24.com/skin/base_ko_KR/order/ico_required.gif"
+												alt="필수"></th>
+											<td><input id="" name=""
+												class="inputTypeText" placeholder="" size="6" maxlength="6"
+												readonly="1" value="" type="text"> <a href="#"
+												id="" class="btnNormal">우편번호</a><br>
+												<input id="" name="" class="inputTypeText"
+												placeholder="" size="40" readonly="1" value="" type="text">
+												<span class="grid">기본주소</span><br> <input id=""
+												name="" class="inputTypeText" placeholder="" size="40"
+												value="" type="text"> <span class="grid">나머지주소</span><span
+												class="grid displaynone">(선택입력가능)</span></td>
+										</tr>
+										<tr class="displaynone">
+											<th scope="row">일반전화 <span class="displaynone"><img
+													src="//img.echosting.cafe24.com/skin/base_ko_KR/order/ico_required.gif"
+													alt="필수"></span>
+											</th>
+											<td></td>
+										</tr>
+										<tr class="">
+											<th scope="row">휴대전화 <span class=""><img
+													src="//img.echosting.cafe24.com/skin/base_ko_KR/order/ico_required.gif"
+													alt="필수"></span>
+											</th>
+											<td><select id="" name="">
+													<option value="010">010</option>
+													<option value="011">011</option>
+													<option value="016">016</option>
+													<option value="017">017</option>
+													<option value="018">018</option>
+													<option value="019">019</option>
+											</select>-<input id="" name="" maxlength="4" size="4" value="" type="text">-<input
+												id="" name="" maxlength="4" size="4" value="" type="text"></td>
+										</tr>
+										<tr class="displaynone">
+											<th scope="row">안심번호</th>
+											<td>
+												<p>- 안심번호 서비스는 개인정보 보호를 위하여 휴대폰번호 등 실제 연락처 대신에 1회성 임시
+													번호를 제공하는 서비스입니다.</p>
+											</td>
+										</tr>
+									</tbody>
+	
+									<tbody
+										class="deliverySimpleForm">
+										<tr>
+											<th scope="row">이메일 <img
+												src="//img.echosting.cafe24.com/skin/base_ko_KR/order/ico_required.gif"
+												alt="필수"></th>
+											<td><input id="" name=""
+												class="mailId" value="" type="text">@<input
+												id="" name=""
+												class="mailAddress" readonly="readonly" value="" type="text"><select
+												id="" >
+													<option value="" selected="selected">- 이메일 선택 -</option>
+													<option value="naver.com">naver.com</option>
+													<option value="daum.net">daum.net</option>
+													<option value="nate.com">nate.com</option>
+													<option value="hotmail.com">hotmail.com</option>
+													<option value="yahoo.com">yahoo.com</option>
+													<option value="empas.com">empas.com</option>
+													<option value="korea.com">korea.com</option>
+													<option value="dreamwiz.com">dreamwiz.com</option>
+													<option value="gmail.com">gmail.com</option>
+													<option value="etc">직접입력</option>
+											</select>
+												<p class="gBlank5">
+													이메일을 통해 주문처리과정을 보내드립니다.<br>이메일 주소란에는 반드시 수신가능한 이메일주소를
+													입력해 주세요.
+												</p></td>
+										</tr>
+									</tbody>
+									<!-- 국내 배송관련 정보 -->
+									<tbody class="delivery ">
+										<tr class="">
+											<th scope="row">배송메시지 <span class="displaynone"><img
+													src="//img.echosting.cafe24.com/skin/base_ko_KR/order/ico_required.gif"
+													alt="필수"></span>
+											</th>
+											<td><textarea id="" name="" maxlength="255" cols="70"></textarea>
+												<div class="delvMessage displaynone">
+													<label><input id=""
+														name="" value="T" type="checkbox"
+														disabled=""><label for=""></label>
+														자동저장</label>
+													<ul class="gIndent5">
+														<li>배송메시지란에는 배송시 참고할 사항이 있으면 적어주십시오.</li>
+														<li>게시글은 비밀글로 저장되며 비밀번호는 주문번호 뒷자리로 자동 저장됩니다.</li>
+													</ul>
+												</div></td>
+										</tr>
+									</tbody>
+									
+								</table>
+							</div>
+						</div>
+						<div class="orderArea displaynone">
+							<div class="title">
+								<h3>추가 정보</h3>
+							</div>
+							<div class="typeWrite">
+								<table border="1" summary="">
+									<caption>추가 정보 입력</caption>
+									<colgroup>
+										<col style="width: 139px;">
+										<col style="width: auto;">
+									</colgroup>
+									<tbody class="order-ordadd">
+										<tr class="">
+											<th scope="row"></th>
+											<td></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<div class="orderArea displaynone">
+							<div class="title">
+								<h3>기타 문의사항</h3>
+							</div>
+							<div class="typeWrite">
+								<table border="1" summary="">
+									<caption>기타 문의사항</caption>
+									<colgroup>
+										<col style="width: 139px;">
+										<col style="width: auto;">
+									</colgroup>
+									<tbody>
+										<tr>
+											<th scope="row">기타 문의사항</th>
+											<td><textarea id="" name="" maxlength="255" cols="70"></textarea></td>
+										</tr>
+										<tr>
+											<th scope="row">비밀번호</th>
+											<td><input id="" name="" value=""
+												type="password" disabled=""> <span
+												class="displaynone">(영문 대소문자/숫자/특수문자 중 2가지 이상 조합,
+													10자~16자)</span></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<ul class="list">
+								<li>해당 문의 사항은 <a href="#"
+									target="_blank"><strong>[상품 Q&amp;A]</strong></a> 에 자동 등록됩니다.
+								</li>
+								<li>운영자에 문의할 내용이나 요청할 내용이 있는 경우 기재하여 주세요.</li>
+								<li>비밀번호는 작성하신 문의글을 게시판에서 내용 확인 할 때 사용됩니다.</li>
+							</ul>
+						</div>
+						<div class="termArea displaynone" style="display: none;">
+							<div class="check displaynone"></div>
+							<div class="inner">
+								<div class="box displaynone">
+									<h4>쇼핑몰 이용약관</h4>
+								</div>
+								<div class="box displaynone"
+									id="" style="display: block;">
+									<h4>비회원 구매 시 개인정보수집 이용동의</h4>
+								</div>
+								<div class="box displaynone"
+									id="" style="display: none;">
+									<h4>개인정보수집 이용동의</h4>
+								</div>
+								<div class="box displaynone">
+									<h4>배송정보 제공방침</h4>
+								</div>
+								<div id=""
+									class="box displaynone">
+									<h4>고유식별정보수집 동의</h4>
+									<textarea id=""
+										name="" fw-filter=""
+										maxlength="250" cols="70"
+										readonly="1"></textarea>
+									<input id=""
+										name=""
+										value="T"
+										type="checkbox" disabled=""><label
+										for="">동의</label>
+								</div>
+								<div class="box displaynone displaynone"
+									id=""
+									style="display: none;">
+									<h4>개인정보 제3자 제공 동의 (선택)</h4>
+								</div>
+								<div class="box displaynone displaynone"
+									id=""
+									style="display: none;">
+									<h4>개인정보취급 위탁 동의 (선택)</h4>
+								</div>
+							</div>
+						</div>
+						<div class="title">
+							<h3>결제 예정 금액</h3>
+						</div>
+						<div class="totalArea">
+							<div class="typeList gBorder total">
+								<table border="1" summary="">
+									<caption>결제 예정 금액</caption>
+									<colgroup>
+										<col style="width: 33.33%">
+										<col style="width: 33.33%" class="">
+										<col style="width: 33.33%">
+									</colgroup>
+									<thead>
+										<tr>
+											<th scope="col"><strong>총 주문 금액</strong> <a href="#"
+												onclick=""
+												class="btnNormal">내역보기</a></th>
+											<th scope="col" class=""><strong>총 </strong><strong
+												id="" class="">할인</strong><strong
+												id="" class=""> + </strong><strong
+												id="" class="">부가결제</strong><strong>
+													금액</strong></th>
+											<th scope="col"><strong>총 결제예정 금액</strong></th>
+										</tr>
+									</thead>
+									<tbody class="center">
+										<tr>
+											<td class="price"><div class="box txt16">
+													<strong><span id=""
+														class="txt23">0</span>원</strong> <span class="displaynone"><span
+														id=""><span
+															class="eRefPrice"></span></span></span>
+												</div></td>
+											<td class="option "><div class="box txt16">
+													<strong>-</strong> <strong><span
+														id="" class="txt23">0</span>원</strong> <span
+														class="displaynone"><span
+														id=""><span
+															class="eRefPrice"></span></span></span>
+												</div></td>
+											<td><div class="box txtEm txt16">
+													<strong>=</strong> <strong><span
+														id="" class="txt23">0</span>원</strong>
+													<span class="displaynone"><span
+														id=""><span
+															class="eRefPrice"></span></span></span>
+												</div></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="detail">
+								<div class="gMerge ">
+									<table border="1" summary="">
+										<caption>할인 내역</caption>
+										<colgroup>
+											<col style="width: 139px">
+											<col style="width: auto">
+										</colgroup>
+										<tbody>
+											<tr class="sum txt14">
+												<th scope="row"><strong>총 할인금액</strong></th>
+												<td><strong id="">0</strong>원</td>
+											</tr>
+											<tr class=" mCouponSelect">
+												<th scope="row">쿠폰할인</th>
+												<td><a href="#" id=""
+													class="btnSubmit">쿠폰적용</a></td>
+											</tr>
+											<!-- 쿠폰적용 후 -->
+											<tr class="mCouponModify" style="display: none;">
+												<th scope="row">쿠폰할인</th>
+												<td><span class="mTotalCouponDiscount">0원</span> <a
+													id="" href="#" class="btnSubmit">수정</a>
+													<div id="" style="display: none" class="coupon">
+														<span id=""></span> <span
+															id=""></span> <span id=""></span>
+														<span id=""></span> <span
+															id=""></span>
+													</div>
+													<div id="" style="display: none" class="couponArea"></div>
+												</td>
+											</tr>
+											<tr class="displaynone"
+												id="">
+												<th scope="row">추가할인금액</th>
+												<td><span class="gSpace20"><span
+														id="">0</span>원</span> <a href="#"
+													onclick=""
+													class="btnNormal">내역보기</a></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="gMerge ">
+									<table border="1" summary="">
+										<caption>부가결제 내역</caption>
+										<colgroup>
+											<col style="width: 139px">
+											<col style="width: auto">
+										</colgroup>
+										<tbody>
+											<tr class="sum txt14">
+												<th scope="row"><strong>총 부가결제금액</strong></th>
+												<td><strong id="">0</strong>원</td>
+											</tr>
+										</tbody>
+										<tbody id="" class="">
+											<tr>
+												<th scope="row">적립금</th>
+												<td>
+													<p>
+														<input id="" name="" 
+															class="inputTypeText"
+															placeholder="" size="10" value="" type="text"> 원
+														(총 사용가능 적립금 : <strong class="txtWarn">2,000</strong>원)
+													</p>
+													<ul class="info">
+														<li>적립금은 최소 2,000 이상일 때 결제가 가능합니다.</li>
+														<li id="" class="">최대 사용금액은 제한이
+															없습니다.</li>
+														<li id="" class="">1회 구매시 적립금 최대
+															사용금액은 2,000원입니다.</li>
+														<li>적립금으로만 결제할 경우, 결제금액이 0으로 보여지는 것은 정상이며 [결제하기] 버튼을
+															누르면 주문이 완료됩니다.</li>
+														<li id="" class="displaynone">적립금 사용 시
+															배송비는 적립금으로 사용 할 수 없습니다.</li>
+														<li id="" class="displaynone">적립금 사용
+															시 해당 상품에 대한 적립금은 적립되지 않습니다.</li>
+													</ul>
+												</td>
+											</tr>
+										</tbody>
+										<tbody class="displaynone">
+											<tr>
+												<th scope="row">예치금</th>
+												<td>
+													<p>
+														<input id="" name=""
+															class="inputTypeText" placeholder="" size="10" value=""
+															type="text" disabled=""> 원 (총 사용가능 예치금 : <strong
+															class="txtWarn"></strong>원)
+													</p>
+													<ul class="info">
+														<li>예치금은 사용제한 없이 언제든 결제가 가능합니다.</li>
+														<li>예치금으로만 결제할 경우, 결제금액이 0으로 보여지는 것은 정상이며 [결제하기] 버튼을
+															누르면 주문이 완료됩니다.</li>
+														<li>현금환불요청 예치금이 있을 경우, 현금환불요청 예치금을 차감한 금액만 사용할 수 있으며,
+															예치금 환불요청을 취소하시면 전액 사용 가능합니다.</li>
+													</ul>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div id=""></div>
+						<div class="title">
+							<h3>결제수단</h3>
+							<span class="txtEm gIndent20 "> <input type="checkbox"
+								id="" name="" value=""><label
+								for="">결제수단과 입력정보를 다음에도 사용</label>
+							</span>
+						</div>
+						<div class="payArea">
+							<div class="payment">
+								<div class="method">
+									<span class="label"><input id=""
+										name="" value="card" type="radio" checked="checked"
+										autocomplete="off"><label for=""><img
+											src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_card.gif"
+											pay_name="카드 결제" pay_code="card"
+											pay_on_img="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_card.gif"
+											pay_off_img="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_card_disabled.gif"
+											pay_on_img_width="" pay_on_img_height="" pay_off_img_width=""
+											pay_off_img_height=""></label></span> <span class="ec-base-label"><input
+										id="" name=""  value="cell" type="radio"
+										autocomplete="off"><label for=""><img
+											src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_mobile_disabled.gif"
+											pay_name="휴대폰 결제" pay_code="cell"
+											pay_on_img="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_mobile.gif"
+											pay_off_img="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_mobile_disabled.gif"
+											pay_on_img_width="" pay_on_img_height="" pay_off_img_width=""
+											pay_off_img_height=""></label></span> <span class="label"><input
+										id="" name="" value="kakaopay" type="radio"
+										autocomplete="off"><label for=""><img
+											src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_kakaopay_disabled.gif"
+											pay_name="카카오페이(간편결제)" pay_code="kakaopay"
+											pay_on_img="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_kakaopay.gif"
+											pay_off_img="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_kakaopay_disabled.gif"
+											pay_on_img_width="" pay_on_img_height="" pay_off_img_width=""
+											pay_off_img_height=""> <a
+											href="https://www.kakaopay.com" target="_blank"><img
+												src="//img.echosting.cafe24.com/skin/base_ko_KR/order/ico_info2.gif"
+												alt="info"></a></label></span> <span class="label"><input
+										id="" name="" value="cash" type="radio"
+										autocomplete="off"><label for="addr_paymethod3"><img
+											src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_bank_disabled.gif"
+											pay_name="무통장 입금" pay_code="cash"
+											pay_on_img="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_bank.gif"
+											pay_off_img="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_bank_disabled.gif"
+											pay_on_img_width="" pay_on_img_height="" pay_off_img_width=""
+											pay_off_img_height=""></label></span> <span class="ec-base-label"><input
+										id="" name="" value="tcash" type="radio"
+										autocomplete="off"><label for="addr_paymethod4"><img
+											src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_realtime_disabled.gif"
+											pay_name="에스크로(실시간 계좌이체)" pay_code="tcash"
+											pay_on_img="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_realtime.gif"
+											pay_off_img="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_realtime_disabled.gif"
+											pay_on_img_width="" pay_on_img_height="" pay_off_img_width=""
+											pay_off_img_height=""></label></span>
+								</div>
+
+								<!-- 카드사 직접결제 -->
+
+
+								<div class="table">
+									<!-- 무통장입금 -->
+									<table border="1" summary="" id=""
+										style="display: none;">
+										<caption>무통장입금</caption>
+										<colgroup>
+											<col style="width: 139px">
+											<col style="width: auto">
+										</colgroup>
+										<tbody>
+											<tr>
+												<th scope="row">입금자명</th>
+												<td><input id="" name="" class="inputTypeText"
+													placeholder="" size="15" maxlength="20" value=""
+													type="text"></td>
+											</tr>
+											<tr>
+												<th scope="row">입금은행</th>
+												<td><select id="bankaccount" name="bankaccount"
+													fw-filter="" fw-label="무통장 입금은행" fw-msg="">
+														<option value="-1">::: 선택해 주세요. :::</option>
+														<option
+															value="bank_26:110-482-383649:윤후남:신한은행:www.shinhan.com">신한은행:110-482-383649
+															윤후남</option>
+												</select>
+													<p class="gBlank5 ">
+														<a href="#" class="btnNormal" id="">은행사이트
+															바로가기</a>
+													</p></td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- 실시간 계좌이체 -->
+									<table border="1" summary="" id=""
+										style="display: none;">
+										<caption>실시간 계좌이체</caption>
+										<colgroup>
+											<col style="width: 139px">
+											<col style="width: auto">
+										</colgroup>
+										<tbody>
+											<tr>
+												<th scope="row">예금주명</th>
+												<td><input id=""
+													name="" class="inputTypeText" placeholder="" size="26"
+													maxlength="30" value="" type="text"></td>
+											</tr>
+											<tr>
+												<th scope="row"></th>
+												<td><input type="checkbox" name=""
+													id="" value="T"><label
+													for=""> 에스크로(구매안전)서비스를 적용합니다.</label></td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- 에스크로(가상계좌) -->
+									<table border="1" summary="" id=""
+										style="display: none;">
+										<caption>에스크로(가상계좌)</caption>
+										<colgroup>
+											<col style="width: 139px">
+											<col style="width: auto">
+										</colgroup>
+										<tbody>
+											<tr>
+												<th scope="row">에스크로</th>
+												<td><input id=""
+													name="" value="T" type="checkbox"><label
+													for=""></label><label
+													for="">에스크로(구매안전)서비스를 적용합니다.</label></td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- 무통장입금, 카드결제, 휴대폰결제, 실시간계좌이체 -->
+									<div id="" class="payHelp" style="">
+										<p id="" class="help"
+											style="display: none;">최소 결제 가능 금액은 결제금액에서 배송비를 제외한
+											금액입니다.</p>
+										<p id="" class="help">소액 결제의
+											경우 PG사 정책에 따라 결제 금액 제한이 있을 수 있습니다.</p>
+									</div>
+
+									<!-- 케이페이 -->
+									<div id="" class="payHelp" style="display: none;">
+										<p class="help">휴대폰에 설치된 케이페이 앱에서 비밀번호 입력만으로 빠르고
+											안전하게 결제가 가능한 서비스 입니다.</p>
+										<p class="help">
+											안드로이드의 경우 구글 플레이, 아이폰의 경우 앱 스토어에서 케이페이 앱을 설치 한 후,<br> 최초
+											1회 카드정보를 등록하셔야 사용 가능합니다.
+										</p>
+									</div>
+
+									<!-- 페이나우 -->
+									<div id="" class="payHelp" style="display: none;">
+										<p class="help">휴대폰에 설치된 페이나우 앱에서 비밀번호 입력만으로 빠르고
+											안전하게 결제가 가능한 서비스 입니다.</p>
+										<p class="help">
+											안드로이드의 경우 구글 플레이, 아이폰의 경우 앱 스토어에서 페이나우 앱을 설치 한 후,<br> 최초
+											1회 카드 및 계좌 정보를 등록하셔야 사용 가능합니다
+										</p>
+									</div>
+
+									<!-- 페이코 -->
+									<div id="" class="payHelp" style="display: none;">
+										<p class="help">페이코 결제 팝업창에서 비밀번호 입력만으로 빠르고 안전하게
+											결제가 가능한 서비스 입니다.</p>
+										<p class="help">
+											<a href="//www.payco.com" target="_blank">www.payco.com</a> 에
+											회원가입 후, 최초 1회 카드 및 계좌 정보를 등록하셔야 사용 가능합니다.
+										</p>
+									</div>
+
+									<!-- 카카오페이 -->
+									<div id="kakaopay_info" class="payHelp" style="display: none;">
+										<p class="help">휴대폰에 설치된 카카오톡 앱에서 비밀번호 입력만으로 빠르고
+											안전하게 결제가 가능한 서비스 입니다.</p>
+										<p class="help">
+											안드로이드의 경우 구글 플레이, 아이폰의 경우 앱 스토어에서 카카오톡 앱을 설치 한 후,<br> 최초
+											1회 카드 및 계좌 정보를 등록하셔야 사용 가능합니다.
+										</p>
+										<p class="help">인터넷 익스플로러의 경우 8 이상에서만 결제 가능합니다.</p>
+										<p class="help">카카오머니로 결제 시, 현금영수증 발급은 ㈜카카오페이에서
+											발급가능합니다.</p>
+									</div>
+
+									<!-- 스마일페이 -->
+									<div id="" class="payHelp" style="display: none;">
+										<p class="">앱 설치없이 회원가입 또는 G마켓/옥션/G9 ID 로그인 후
+											바로 이용 가능합니다.</p>
+										<p class="">최초 1회 카드 정보를 등록하셔야 사용 가능합니다.</p>
+									</div>
+								</div>
+
+								<!-- 증명서류 발급 -->
+								<div class="agree">
+									<table border="1" summary="">
+										<caption>증명서류 발급</caption>
+										<tbody class="receipt">
+											<tr id="" class=""
+												style="display: none;">
+												<th scope="row">현금영수증 신청</th>
+												<td>
+													<div class="methods">
+														<input id="" name=""
+															value="1"
+															type="radio" autocomplete="off"><label
+															for="">현금영수증 신청</label> <input
+															id="" name="" value="99"
+															type="radio" checked="checked" autocomplete="off"><label
+															for="">신청안함</label>
+													</div>
+													<div id="" class="ec-base-table cash">
+														<table border="1" summary="">
+															<caption>현금영수증 발급 정보 입력</caption>
+															<colgroup>
+																<col style="width: 129px">
+																<col style="width: auto">
+															</colgroup>
+															<tbody>
+																<tr>
+																	<th scope="row">구분</th>
+																	<td><input id=""
+																		name="" value="0" type="radio" autocomplete="off"><label
+																		for="">개인</label> <input
+																		id=""
+																		name="" value="1" type="radio" autocomplete="off"><label
+																		for="">사업자</label></td>
+																</tr>
+																<tr class="mobile" id="">
+																	<th scope="row">핸드폰 번호</th>
+																	<td><select id=""
+																		name="">
+																			<option value="010">010</option>
+																			<option value="011">011</option>
+																			<option value="016">016</option>
+																			<option value="017">017</option>
+																			<option value="018">018</option>
+																			<option value="019">019</option>
+																	</select>-<input id=""
+																		name="" maxlength="4"
+																		value="" type="text">-<input
+																		id=""
+																		name="" maxlength="4" value="" type="text"></td>
+																</tr>
+																<tr class="regno" id="">
+																	<th scope="row">사업자 번호</th>
+																	<td><input id=""
+																		name="" placeholder="사업자번호"
+																		value="" type="text"></td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</td>
+											</tr>
+											<tr id="" class=""
+												style="display: none;">
+												<th scope="row">세금계산서 신청</th>
+												<td>
+													<div class="methods">
+														<input id="" name=""
+															value="1"
+															type="radio" autocomplete="off"><label
+															for="">세금계산서 신청</label> <input
+															id="" name=""
+															value="99"
+															type="radio" checked="checked" autocomplete="off"><label
+															for="">신청안함</label>
+													</div>
+													<div id="" class="tax">
+														<ul class="info">
+															<li>- 세금 계산서 발행 신청을 위해 아래 모든 입력사항을 빠짐없이 입력하십시오.</li>
+															<li>- 신청양식 작성 후 사업자 등록증 사본을 팩스()로 보내주십시오.</li>
+														</ul>
+														<strong class="title">신청자 정보</strong>
+														<div class="table">
+															<table border="1" summary="">
+																<caption>세금계산서 신청자 정보 입력</caption>
+																<colgroup>
+																	<col style="width: 129px">
+																	<col style="width: auto">
+																</colgroup>
+																<tbody>
+																	<tr>
+																		<th scope="row">신청자 이름</th>
+																		<td><input id=""
+																			name="" class="inputTypeText" placeholder="" size="15"
+																			value="회원이름" type="text"></td>
+																	</tr>
+																	<tr class="mobile">
+																		<th scope="row">신청자 전화번호</th>
+																		<td><select id=""
+																			name="" >
+																				<option value="02">02</option>
+																				<option value="031">031</option>
+																				<option value="032">032</option>
+																				<option value="033">033</option>
+																				<option value="041">041</option>
+																				<option value="042">042</option>
+																				<option value="043">043</option>
+																				<option value="044">044</option>
+																				<option value="051">051</option>
+																				<option value="052">052</option>
+																				<option value="053">053</option>
+																				<option value="054">054</option>
+																				<option value="055">055</option>
+																				<option value="061">061</option>
+																				<option value="062">062</option>
+																				<option value="063">063</option>
+																				<option value="064">064</option>
+																				<option value="0502">0502</option>
+																				<option value="0503">0503</option>
+																				<option value="0504">0504</option>
+																				<option value="0505">0505</option>
+																				<option value="0506">0506</option>
+																				<option value="0507">0507</option>
+																				<option value="070">070</option>
+																				<option value="010">010</option>
+																				<option value="011">011</option>
+																				<option value="016">016</option>
+																				<option value="017">017</option>
+																				<option value="018">018</option>
+																				<option value="019">019</option>
+																				<option value="0508">0508</option>
+																		</select>-<input id=""
+																			name="" maxlength="4" size="4" value="" type="text">-<input
+																			id="" name=""
+																			maxlength="4" size="4" value="" type="text"></td>
+																	</tr>
+																	<tr class="regno">
+																		<th scope="row">E-Mail</th>
+																		<td><input id=""
+																			name="" class="mailId" value="회원아이디" type="text">@<input
+																			id="" name=""
+																			class="mailAddress" readonly="readonly"
+																			value="naver.com" type="text"><select
+																			id="" fw-filter=""
+																			fw-label="세금계산서 신청의 E-Mail" fw-alone="N" fw-msg="">
+																				<option value="">- 이메일 선택 -</option>
+																				<option value="naver.com" selected="selected">naver.com</option>
+																				<option value="daum.net">daum.net</option>
+																				<option value="nate.com">nate.com</option>
+																				<option value="hotmail.com">hotmail.com</option>
+																				<option value="yahoo.com">yahoo.com</option>
+																				<option value="empas.com">empas.com</option>
+																				<option value="korea.com">korea.com</option>
+																				<option value="dreamwiz.com">dreamwiz.com</option>
+																				<option value="gmail.com">gmail.com</option>
+																				<option value="etc">직접입력</option>
+																		</select></td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+														<strong class="title">사업자 정보</strong>
+														<div class="table">
+															<table border="1" summary="">
+																<caption>세금계산서 사업자 정보 입력</caption>
+																<colgroup>
+																	<col style="width: 129px">
+																	<col style="width: auto">
+																</colgroup>
+																<tbody>
+																	<tr>
+																		<th scope="row">사업자 구분</th>
+																		<td>
+																			<div class="businessType">
+																				<input id=""
+																					name="" value="A"
+																					type="radio" checked="checked" autocomplete="off"><label
+																					for="">개인</label> <input
+																					id=""
+																					name="" value="B"
+																					type="radio" autocomplete="off"><label
+																					for="">법인</label>
+																			</div>
+																		</td>
+																	</tr>
+																	<tr>
+																		<th scope="row">사업자등록번호</th>
+																		<td><input id=""
+																			name="" value=""
+																			type="text"></td>
+																	</tr>
+																	<tr>
+																		<th scope="row">상호(법인명)</th>
+																		<td><input id=""
+																			name="" class="inputTypeText" placeholder="" maxlength="200"
+																			size="15" value="" type="text"></td>
+																	</tr>
+																	<tr>
+																		<th scope="row">대표자명</th>
+																		<td><input id=""
+																			name="" class="inputTypeText" placeholder="" size="15"
+																			value="회원이름" type="text"></td>
+																	</tr>
+																	<tr>
+																		<th scope="row">사업장 주소</th>
+																		<td><input id=""
+																			name="" 
+																			class="inputTypeText" placeholder="" size="6"
+																			maxlength="6" readonly="1" value="" type="text">
+																			<a href="#" id=""
+																			class="btnNormal">주소검색</a><br> <input
+																			id="" name=""
+																			class="inputTypeText" placeholder="" size="40"
+																			readonly="1" value="" type="text"><br> <input
+																			id="" name=""
+																			class="inputTypeText" placeholder="" size="40"
+																			value="" type="text"></td>
+																	</tr>
+																	<tr>
+																		<th scope="row">업태</th>
+																		<td><input id=""
+																			name="" class="inputTypeText" placeholder="" maxlength="50"
+																			size="15" value="" type="text"></td>
+																	</tr>
+																	<tr>
+																		<th scope="row">종목</th>
+																		<td><input id=""
+																			name="" class="inputTypeText" placeholder="" maxlength="50"
+																			size="15" value="" type="text"></td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+												</td>
+											</tr>
+										</tbody>
+										<!-- 청약철회방침 -->
+										<tbody class="displaynone">
+											<tr>
+												<th scope="row">청약철회방침</th>
+												<td>
+													<div class="textArea">
+														<textarea id=""
+															name="" maxlength="250" cols="70" readonly="1">** 본 양식은 쇼핑몰 운영에 도움을 드리고자 샘플로 제공되는 서식으로 쇼핑몰 운영형태에 따른 수정이 필요합니다. 쇼핑몰에 적용하시기 전, 쇼핑몰 운영 사항 등을 확인하시고 적절한 내용을 반영하여 사용하시기 바랍니다. **
+ 
+																■ 청약철회 등
+																 
+																① “까꾸빈티지”과 재화등의 구매에 관한 계약을 체결한 이용자는 「전자상거래 등에서의 소비자보호에 관한 법률」 제13조 제2항에 따른 계약내용에 관한 서면을 받은 날(그 서면을 받은 때보다 재화 등의 공급이 늦게 이루어진 경우에는 재화 등을 공급받거나 재화 등의 공급이 시작된 날을 말합니다)부터 7일 이내에는 청약의 철회를 할 수 있습니다. 다만, 청약철회에 관하여 「전자상거래 등에서의 소비자보호에 관한 법률」에 달리 정함이 있는 경우에는 동 법 규정에 따릅니다.
+																 
+																② 이용자는 재화 등을 배송 받은 경우 다음 각 호의 1에 해당하는 경우에는 반품 및 교환을 할 수 없습니다.
+																    1. 이용자에게 책임 있는 사유로 재화 등이 멸실 또는 훼손된 경우(다만, 재화 등의 내용을 확인하기 위하여 포장 등을 훼손한 경우에는 청약철회를 할 수 있습니다)
+																    2. 이용자의 사용 또는 일부 소비에 의하여 재화 등의 가치가 현저히 감소한 경우
+																    3. 시간의 경과에 의하여 재판매가 곤란할 정도로 재화등의 가치가 현저히 감소한 경우
+																    4. 같은 성능을 지닌 재화 등으로 복제가 가능한 경우 그 원본인 재화 등의 포장을 훼손한 경우
+																 
+																③ 제2항제2호 내지 제4호의 경우에 “몰”이 사전에 청약철회 등이 제한되는 사실을 소비자가 쉽게 알 수 있는 곳에 명기하거나 시용상품을 제공하는 등의 조치를 하지 않았다면 이용자의 청약철회 등이 제한되지 않습니다.
+																 
+																④ 이용자는 제1항 및 제2항의 규정에 불구하고 재화 등의 내용이 표시·광고 내용과 다르거나 계약내용과 다르게 이행된 때에는 당해 재화 등을 공급받은 날부터 3월 이내, 그 사실을 안 날 또는 알 수 있었던 날부터 30일 이내에 청약철회 등을 할 수 있습니다.
+																 
+																 
+																 
+																■ 청약철회 등의 효과
+																 
+																① “까꾸빈티지”은 이용자로부터 재화 등을 반환받은 경우 3영업일 이내에 이미 지급받은 재화 등의 대금을 환급합니다. 이 경우 “몰”이 이용자에게 재화등의 환급을 지연한때에는 그 지연기간에 대하여 「전자상거래 등에서의 소비자보호에 관한 법률 시행령」제21조의2에서 정하는 지연이자율을 곱하여 산정한 지연이자를 지급합니다. 
+																 
+																② “까꾸빈티지”은 위 대금을 환급함에 있어서 이용자가 신용카드 또는 전자화폐 등의 결제수단으로 재화 등의 대금을 지급한 때에는 지체 없이 당해 결제수단을 제공한 사업자로 하여금 재화 등의 대금의 청구를 정지 또는 취소하도록 요청합니다.
+																 
+																③ 청약철회 등의 경우 공급받은 재화 등의 반환에 필요한 비용은 이용자가 부담합니다. “까꾸빈티지”은 이용자에게 청약철회 등을 이유로 위약금 또는 손해배상을 청구하지 않습니다. 다만 재화 등의 내용이 표시·광고 내용과 다르거나 계약내용과 다르게 이행되어 청약철회 등을 하는 경우 재화 등의 반환에 필요한 비용은 “몰”이 부담합니다.
+																 
+																④ 이용자가 재화 등을 제공받을 때 발송비를 부담한 경우에 “까꾸빈티지”은 청약철회 시 그 비용을  누가 부담하는지를 이용자가 알기 쉽도록 명확하게 표시합니다.
+														</textarea>
+														<a href="#"
+															onclick=""
+															class="btnAgree">전체보기</a>
+													</div>
+													<p>
+														<input id=""
+															name="" value="T" type="checkbox"
+															disabled=""><label
+															for=""></label><label
+															for=""><strong>동의함</strong></label>
+													</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+
+
+							<div class="total">
+								<h4>
+									<strong id="">카드 결제</strong> <span>최종결제
+										금액</span>
+								</h4>
+								<p class="price">
+									<span></span><input id="" name="total_price"
+										class="inputTypeText" placeholder=""
+										style="text-align: right; ime-mode: disabled; clear: none; border: 0px; float: none;"
+										size="10" readonly="1" value="97000" type="text"><span>원</span>
+								</p>
+								<p class="paymentAgree" id=""
+									style="display: none;">
+									<input id=""
+										name="" fw-filter="" fw-label="구매진행 동의"
+										fw-msg="" value="T" type="checkbox" style="display: none;"><label
+										for="">결제정보를 확인하였으며, 구매진행에
+										동의합니다.</label>
+								</p>
+								<div class="button gColumn">
+									<a href="#" id="" class="btnSubmit sizeL"
+										style="background-color: #222222;">결제하기</a>
+								</div>
+								<div class="mileage ">
+									<dl class="ec-base-desc gLarge right">
+										<dt>
+											<strong>총 적립예정금액</strong>
+										</dt>
+										<dd id="" class="txtWarn" style="">970원</dd>
+									</dl>
+									<dl class="gLarge right">
+										<dt>상품별 적립금</dt>
+										<dd id="">0원</dd>
+										<dt>회원 적립금</dt>
+										<dd id="">0원</dd>
+										<dt>쿠폰 적립금</dt>
+										<dd id="">0원</dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+						<br>
+						
+						<!-- 무이자 할부 이용안내 -->
+						<div class="ec-base-help">
+							<h3>무이자 할부 이용안내</h3>
+							<div class="inner">
+								<ul>
+									<li>무이자할부가 적용되지 않은 상품과 무이자할부가 가능한 상품을 동시에 구매할 경우 전체 주문 상품
+										금액에 대해 무이자할부가 적용되지 않습니다.</li>
+									<li>무이자할부를 원하시는 경우 장바구니에서 무이자할부 상품만 선택하여 주문하여 주시기 바랍니다.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="help">
+							<h3>이용안내</h3>
+							<div class="inner">
+								<h4>WindowXP 서비스팩2를 설치하신후 결제가 정상적인 단계로 처리되지 않는경우, 아래의 절차에
+									따라 해결하시기 바랍니다.</h4>
+								<ol>
+									<li class="item1"><a href="#"
+										onclick="">안심클릭
+											결제모듈이 설치되지 않은 경우 ActiveX 수동설치</a></li>
+									<li class="item2"><a
+										href="http://www.microsoft.com/korea/windowsxp/sp2/default.asp"
+										target="_blank">Service Pack 2에 대한 Microsoft사의 상세안내 </a></li>
+									<li class="item3"></li>
+								</ol>
+								<!-- 크로스 브라우징 지원 -->
+								<div class="">
+									<h4>아래의 쇼핑몰일 경우에는 모든 브라우저 사용이 가능합니다.</h4>
+									<ol>
+										<li class="item1"><strong>KG이니시스, KCP, LG U+를
+												사용하는 쇼핑몰일 경우</strong></li>
+										<li class="item2">결제가능브라우저 : 크롬,파이어폭스,사파리,오페라 브라우저에서 결제
+											가능<br>(단, window os 사용자에 한하며 리눅스/mac os 사용자는 사용불가)
+										</li>
+										<li class="item3">최초 결제 시도시에는 플러그인을 추가 설치 후 반드시 브라우저 종료 후
+											재시작해야만 결제가 가능합니다.<br>(무통장, 휴대폰결제 포함)
+										</li>
+									</ol>
+								</div>
+								<h4>세금계산서 발행 안내</h4>
+								<ol>
+									<li class="item1">부가가치세법 제 54조에 의거하여 세금계산서는 배송완료일로부터 다음달
+										10일까지만 요청하실 수 있습니다.</li>
+									<li class="item2">세금계산서는 사업자만 신청하실 수 있습니다.</li>
+									<li class="item3">배송이 완료된 주문에 한하여 세금계산서 발행신청이 가능합니다.</li>
+									<li class="item4">[세금계산서 신청]버튼을 눌러 세금계산서 신청양식을 작성한 후 팩스로
+										사업자등록증사본을 보내셔야 세금계산서 발생이 가능합니다.</li>
+									<li class="item5">[세금계산서 인쇄]버튼을 누르면 발행된 세금계산서를 인쇄하실 수
+										있습니다.</li>
+								</ol>
+								<h4>부가가치세법 변경에 따른 신용카드매출전표 및 세금계산서 변경안내</h4>
+								<ol>
+									<li class="item1">변경된 부가가치세법에 의거, 2004.7.1 이후 신용카드로 결제하신
+										주문에 대해서는 세금계산서 발행이 불가하며</li>
+									<li class="item2">신용카드매출전표로 부가가치세 신고를 하셔야 합니다.(부가가치세법 시행령
+										57조)</li>
+									<li class="item3">상기 부가가치세법 변경내용에 따라 신용카드 이외의 결제건에 대해서만
+										세금계산서 발행이 가능함을 양지하여 주시기 바랍니다.</li>
+								</ol>
+								<h4>현금영수증 이용안내</h4>
+								<ol>
+									<li class="item1">현금영수증은 1원 이상의 현금성거래(무통장입금, 실시간계좌이체,
+										에스크로, 예치금)에 대해 발행이 됩니다.</li>
+									<li class="item2">현금영수증 발행 금액에는 배송비는 포함되고, 적립금사용액은 포함되지
+										않습니다.</li>
+									<li class="item3">발행신청 기간제한 현금영수증은 입금확인일로 부터 48시간안에 발행을 해야
+										합니다.</li>
+									<li class="item4">현금영수증 발행 취소의 경우는 시간 제한이 없습니다. (국세청의 정책에
+										따라 변경 될 수 있습니다.)</li>
+									<li class="item5">현금영수증이나 세금계산서 중 하나만 발행 가능 합니다.</li>
+								</ol>
+							</div>
+						</div>
+						<!-- 결제진행바 -->
+						<iframe id="h_payment" name="h_payment" width="0" height="0"
+							frameborder="0" src=""></iframe>
+						<!-- // 결제진행바 -->
+				</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+<!-- footer구역 -->
+	<footer class="container-fluid navbar-fixed-bottom">
+		<div class="footer">footer구역</div>
+	</footer>
+
+
+
+</div><!-- contents -->
+
+
+	<!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<!-- 모든 컴파일된 플러그인을 포함합니다 (아래), 원하지 않는다면 필요한 각각의 파일을 포함하세요 -->
+	<script src="../js/bootstrap.min.js"></script>
+ </div>	
+</body>
+</html>
